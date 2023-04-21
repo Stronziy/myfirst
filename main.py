@@ -186,8 +186,6 @@ while GAME:
     if score_player1 >= end_score or score_player2 >= end_score:
         pygame.mixer.music.stop()
         game_over.play()
-    #    while True:
-
 
     #end
     pygame.display.update()
