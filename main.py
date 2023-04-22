@@ -15,7 +15,7 @@ RED = (255, 0, 0)
 random_color = ['red', 'green', 'blue', 'orange', 'pink', 'magenta', 'brown']
 
 #картинки
-backgroung_image = pygame.image.load('image_')
+backgroung_image = pygame.image.load('image_for_pong/background_image.jpg')
 backgroung_image = pygame.transform.scale(backgroung_image, (1000, 600))
 
 basic_window_title = pygame.display.set_caption('PonG')
